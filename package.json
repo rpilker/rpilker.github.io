@@ -1,0 +1,8 @@
+{
+  "name": "rpilker.github.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:rpilker/rpilker.github.io.git",
+  "author": "Pilker <o.pilker@gmail.com>",
+  "license": "MIT"
+}
