@@ -716,9 +716,14 @@ body main {
 .l-aside-nav {
   position: fixed;
   left: 0;
-  top: 25vh;
-  height: 50vh;
+  top: 20vh;
+  height: 60vh;
   margin: 0 35px;
+}
+@media only screen and (min-width: 1280px) {
+  .l-aside-nav {
+    left: calc(((100% - 1280px) / 2));
+  }
 }
 .l-aside-nav ul {
   position: relative;
@@ -757,6 +762,12 @@ body main {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   z-index: 1;
+}
+@media only screen and (min-width: 1280px) {
+  .logo-bg,
+  .logo-bg2 {
+    left: calc(((100% - 1280px) / 2) + 15px + 80px);
+  }
 }
 .logo-bg.opening,
 .logo-bg2.opening {
@@ -824,6 +835,7 @@ body main {
 .l-section {
   height: 100vh;
   padding: 100px 15px 15px 80px;
+  position: relative;
 }
 .l-section .slogan {
   position: absolute;
