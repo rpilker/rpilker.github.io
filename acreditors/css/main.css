@@ -1008,6 +1008,10 @@ img[data-full-size].-loaded {
 }
 .l-section .text .mapa {
   width: 100%;
+  max-width: 700px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .l-section .text p {
   width: 100%;
